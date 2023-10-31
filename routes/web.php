@@ -22,7 +22,7 @@ Route::get('/about', function () {
         "title" => "About",
         "name" => "Azka Ramadhan",
         "email" => "ramadhanazka67@gmail.com",
-        "image" => "azka.png"
+        "image" => "azka.jpg"
     ]);
 });
 

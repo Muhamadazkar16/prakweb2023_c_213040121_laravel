@@ -21,7 +21,7 @@ Route::get('/about', function () {
     return view('About', [
         "title" => "About",
         "name" => "Azka Ramadhan",
-        "email" => "ramadhanazka67@gmail.com",
+        "email" => "azkagaming@gmail.com",
         "image" => "azka.jpg"
     ]);
 });
@@ -55,7 +55,7 @@ Route::get('posts/{slug}', function ($slug) {
         [
             "title" => "Judul Post Pertama",
             "slug" => "Judul-Post Pertama",
-            "author" => "Juan",
+            "author" => "Azka",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corrupti maxime, quibusdam quidem, non temporibus sint consequatur repellat assumenda laborum quasi explicabo officiis quis iusto? Odit doloremque aperiam neque nulla."
         ],
     ];

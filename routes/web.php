@@ -30,9 +30,9 @@ Route::get('/about', function () {
     return view('about',[
         'title' => 'about',
         'active' => 'about',
-        'name' => 'Saiful Hilal',
-        'email' => 'Shilal@gmail.com',
-        'image' => 'hilal.jpg'
+        'name' => 'M Azka Ramadhan',
+        'email' => 'M.Azka@gmail.com',
+        'image' => 'azka.png'
     ]);
 });
 

@@ -12,7 +12,7 @@
       {{-- My Style --}}
       <link rel="stylesheet" href="/css/style.css">
       
-      <title>Hail | {{ $title }} </title>
+      <title>WPU | {{ $title }} </title>
     </head>
     <body>
 

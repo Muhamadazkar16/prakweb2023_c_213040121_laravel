@@ -4,9 +4,12 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+<<<<<<< HEAD
 use App\Models\User;
 use App\Models\Post;
 use App\Models\Category;
+=======
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,6 +18,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+<<<<<<< HEAD
         
         // \App\Models\User::factory()->create([
             //     'name' => 'Test User',
@@ -104,3 +108,13 @@ class DatabaseSeeder extends Seeder
 
     }
 }
+=======
+        // \App\Models\User::factory(10)->create();
+
+        // \App\Models\User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        // ]);
+    }
+}
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601

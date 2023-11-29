@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @extends('layouts.main')
 
 @section('container')
@@ -18,5 +19,18 @@
         </div>
     </div>
 </div>
+=======
+@dd($post);
+@extends('layouts.main')
+
+@section('container')
+<article>
+  <h2>{{$post["title"]}}</h2>
+  <h5>{{$post["author"]}}</h5>
+  <p>{{$post["body"]}}</p>
+</article>
+
+<a href="/posts">Back To Posts</a>
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
 
 @endsection

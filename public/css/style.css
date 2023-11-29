@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   .form-signin .form-floating:focus-within {
     z-index: 2;
   }
@@ -18,3 +19,8 @@
     border-radius: 0;
     margin: bottom -1px;
   }
+=======
+body {
+  background-color: salmon;
+} 
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601

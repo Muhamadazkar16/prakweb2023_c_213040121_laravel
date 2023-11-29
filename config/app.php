@@ -109,7 +109,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'faker_locale' => env('FAKER_LOCALE','en_US'),
+=======
+    'faker_locale' => 'en_US',
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
 
     /*
     |--------------------------------------------------------------------------
@@ -185,4 +189,8 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601

@@ -7,7 +7,10 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
+<<<<<<< HEAD
         "itsgoingd/clockwork": "^5.1",
+=======
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8"

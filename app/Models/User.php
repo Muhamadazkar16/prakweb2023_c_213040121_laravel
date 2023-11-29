@@ -17,6 +17,7 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
+<<<<<<< HEAD
     // protected $fillable = [
     //     'name',
     //     'username',
@@ -25,6 +26,13 @@ class User extends Authenticatable
     // ];
 
     protected $guarded = ['id'];
+=======
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
 
     /**
      * The attributes that should be hidden for serialization.
@@ -45,9 +53,13 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+<<<<<<< HEAD
 
     public function posts()
     {
         return $this->hasMany(Post::class);
     }
 }
+=======
+}
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601

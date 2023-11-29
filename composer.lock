@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "0493038690a47159a8271cf29dca1bc6",
+=======
+    "content-hash": "aa322c53454393ed775cfe4807d54a50",
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
     "packages": [
         {
             "name": "brick/math",
@@ -971,6 +975,7 @@
             "time": "2023-08-27T10:19:19+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "itsgoingd/clockwork",
             "version": "v5.1.12",
             "source": {
@@ -1050,6 +1055,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/7a2da50258c4d0f693b738d3f3c69b2693aea6c1",
                 "reference": "7a2da50258c4d0f693b738d3f3c69b2693aea6c1",
+=======
+            "name": "laravel/framework",
+            "version": "v10.30.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "3dd85d9dbea82b937f8eaf344b50d613c5d1127a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3dd85d9dbea82b937f8eaf344b50d613c5d1127a",
+                "reference": "3dd85d9dbea82b937f8eaf344b50d613c5d1127a",
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
                 "shasum": ""
             },
             "require": {
@@ -1238,6 +1256,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2023-11-01T13:52:17+00:00"
         },
         {
@@ -1252,6 +1271,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/e1379d8ead15edd6cc4369c22274345982edc95a",
                 "reference": "e1379d8ead15edd6cc4369c22274345982edc95a",
+=======
+            "time": "2023-10-31T13:19:45+00:00"
+        },
+        {
+            "name": "laravel/prompts",
+            "version": "v0.1.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/prompts.git",
+                "reference": "b35f249028c22016e45e48626e19e5d42fd827ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/b35f249028c22016e45e48626e19e5d42fd827ff",
+                "reference": "b35f249028c22016e45e48626e19e5d42fd827ff",
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
                 "shasum": ""
             },
             "require": {
@@ -1293,9 +1328,15 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/prompts/tree/v0.1.13"
             },
             "time": "2023-10-27T13:53:59+00:00"
+=======
+                "source": "https://github.com/laravel/prompts/tree/v0.1.12"
+            },
+            "time": "2023-10-18T14:18:57+00:00"
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
         },
         {
             "name": "laravel/sanctum",
@@ -8145,5 +8186,9 @@
         "php": "^8.1"
     },
     "platform-dev": [],
+<<<<<<< HEAD
     "plugin-api-version": "2.6.0"
+=======
+    "plugin-api-version": "2.3.0"
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
 }

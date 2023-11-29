@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
+<<<<<<< HEAD
 <h1 class="mb-3 text-center">{{ $title }}</h1>
 
 <div class="row justify-content-center mb-3">
@@ -72,5 +73,17 @@
 <div class="d-flex justify-content-end mt-3">
 {{ $posts->links() }}
 </div>
+=======
+
+@foreach ($posts as $post)
+<article class="mb-5">
+  <h2>
+    <a href="/posts/{{ $post["slug"] }}">{{ $post["title"] }}</a>
+  </h2>
+  <h5>By: {{$post ["author"]}}</h5>
+  <p>{{$post["body"]}}</p>
+</article>
+@endforeach
+>>>>>>> 819727428d8df42e2c9c7c832dc09ed41e724601
 
 @endsection
